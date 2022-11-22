@@ -1,2 +1,2 @@
-# R-
-Basic operations and practice codes
+# R
+Basic operations of R programming and practice codes.
