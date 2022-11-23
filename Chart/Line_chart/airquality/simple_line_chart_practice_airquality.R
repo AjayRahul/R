@@ -8,6 +8,10 @@ day <- airquality$Day
 ozone <- airquality$Ozone
 
 -- Reading & checking the columns
+> ncol(airquality)
+[1] 6
+
+
 > str(day)
 int [1:153] 1 2 3 4 5 6 7 8 9 10 ...
 > length(day)
@@ -73,3 +77,5 @@ int [1:153] 1 2 3 4 5 6 7 8 9 10 ...
 > ozone <- na.omit(ozone)
 > plot(ozone, xlim = c(0,30), type = "o", xlab = "Day", ylab = "Ozone", main = "Daily report of Ozone level", col = "blue")
 
+-- Image can be found here
+https://github.com/AjayRahul/R/blob/main/Chart/Line_chart/airquality/airquality_line_chart.jpeg
